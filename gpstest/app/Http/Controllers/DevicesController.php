@@ -5,6 +5,8 @@ namespace App\Http\Controllers;
 use App\Device;
 use App\Http\Requests\StoreDeviceRequest;
 use Illuminate\Http\Request;
+use App\Facades\AddressService;
+use App\Services\DistanceService;
 
 class DevicesController extends Controller
 {
@@ -49,10 +51,13 @@ class DevicesController extends Controller
      * @param  \App\Device  $device
      * @return \Illuminate\Http\Response
      */
-    public function show(Device $device)
+    public function show(Device $device, DistanceService $distanceService)
     {
+        $distance = $distanceService->getDistance();
         $devices = Device::orderBy('id', 'DESC')->get();
-        return view('admin', ['devices' => $devices]);
+        $address = AddressService::getAddress($devices[0]->latitude, $devices[0]->longitude);
+
+        return view('admin', ['devices' => $devices, 'address'=>$address, 'range'=>$distance]);
     }
 
     /**

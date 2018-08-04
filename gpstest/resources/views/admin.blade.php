@@ -9,6 +9,9 @@
                         <li class="list-group-item ">{{$device->name}}</li>
                     @endforeach
                 </ul>
+                <div>
+                    <P><b>Max distance: </b>{{$range->distance}}Km. From {{$range->from_name}} to {{$range->to_name}} </P>
+                </div>
             </div>
             <div class="col map">
                 <div id="map"></div>
@@ -17,7 +20,7 @@
     </div>
     <script>
          var app = @json($devices);
-
+         var address = @json($address);
          var lat = app[0].latitude;
          var lng = app[0].longitude;
 
@@ -34,45 +37,19 @@
             map: map
         });
 
-         var geocoder = new google.maps.Geocoder;
-         var infowindow = new google.maps.InfoWindow;
+         var contentString = '<div id="content" style="height: 100px"><div id="siteNotice"></div>'+
+             '<h5>Device ID: '+app[0].name+'</h5>'+
+             '<h5>Place: '+app[0].place+'</h5>'+
+             '<p><b>Address: </b>'+address+'</p>'+
+             '</div>';
 
-         marker.addListener('click', function() {
-             var latlng = {lat: lat, lng: lng};
-             geocoder.geocode({'location': latlng}, function(results, status) {
-                 if (status === 'OK') {
-                     if (results[0]) {
-                         map.setZoom(11);
-                         var marker = new google.maps.Marker({
-                             position: latlng,
-                             map: map
-                         });
-                         console.log(results[0]);
-                         infowindow.setContent(results[0].formatted_address);
-                         infowindow.open(map, marker);
-                     } else {
-                         window.alert('No results found');
-                     }
-                 } else {
-                     window.alert('Geocoder failed due to: ' + status);
-                 }
-             });
+         var infowindow = new google.maps.InfoWindow({
+             content: contentString
          });
 
-
-         // var infowindow = new google.maps.InfoWindow;
-         // infowindow.setContent(results[0].formatted_address);
-         // var test = https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=-34.44076&lon=-58.70521:
-         // $.ajax({
-         //     type: "post",
-         //     url: "https://nominatim.openstreetmap.org/reverse?",
-         //     data: {lat: lat, lon: lng},
-         //     dataType: "json",
-         //     success:function (data)
-         //     {
-         //        console.log(data);
-         //     }});
-
+         marker.addListener('click', function() {
+             infowindow.open(map, marker);
+         });
 
     </script>
 

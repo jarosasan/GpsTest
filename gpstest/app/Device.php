@@ -14,4 +14,6 @@ class Device extends Model
      */
     protected  $fillable = ['name', 'latitude', 'longitude', 'place'];
 
+
+
 }

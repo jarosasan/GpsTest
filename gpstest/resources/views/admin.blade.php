@@ -9,6 +9,7 @@
                         <li class="list-group-item ">{{$device->name}}</li>
                     @endforeach
                 </ul>
+                <br>
                 <div>
                     <P><b>Max distance: </b>{{$range->distance}}Km. From {{$range->from_name}} to {{$range->to_name}} </P>
                 </div>

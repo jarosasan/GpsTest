@@ -17,6 +17,8 @@
 
 Auth::routes();
 
-Route::get('/admin', 'DevicesController@show')->name('admin');
 Route::get('/', 'DevicesController@create')->name('device.create');
 Route::post('/', 'DevicesController@store')->name('device.store');
+Route::middleware('auth')->group(function() {
+    Route::get('/admin', 'DevicesController@show')->name('admin');
+});

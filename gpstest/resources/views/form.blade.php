@@ -1,9 +1,9 @@
 @extends('layouts.app')
 @section('content')
-    <div class="container">
-        <form action="{{route('device.store')}}" method="post">
+    <div class="container ">
+        <form  class="w-50 forma"  action="{{route('device.store')}}" method="post">
             @csrf
-            <div class="form-group">
+            <div class="form-group ">
                 <label for="exampleInputEmail1">Device</label>
                 <input type="text" name="name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Device ID">
                 @if($errors->has('name'))
@@ -26,7 +26,7 @@
                 @endif
             </div>
             <div class="form-group">
-                <label for="exampleFormControlSelect1">Select Your place</label>
+                <label for="exampleFormControlSelect1">Location</label>
                 <select name="place" class="form-control" id="exampleFormControlSelect1">
                     <option></option>
                     <option value="home">Home</option>

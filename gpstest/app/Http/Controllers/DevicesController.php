@@ -7,6 +7,8 @@ use App\Http\Requests\StoreDeviceRequest;
 use Illuminate\Http\Request;
 use App\Facades\AddressService;
 use App\Services\DistanceService;
+use Mail;
+use App\Mail\DeviceInWork;
 
 class DevicesController extends Controller
 {
@@ -41,7 +43,12 @@ class DevicesController extends Controller
         $latlon = explode(',', $request['latlon']);
         $latitude = floatval($latlon[0]);
         $longitude = floatval($latlon[1]);
-        Device::create($request->except(['_token', 'latlon']) + ['latitude' => $latitude, 'longitude' => $longitude]);
+        $storedDevice = Device::create($request->except(['_token', 'latlon']) + ['latitude' => $latitude, 'longitude' => $longitude]);
+        if ($request->place == 'work') {
+            $address = AddressService::getAddress($storedDevice->latitude, $storedDevice->longitude);
+            $email = 'gpstest@gpstest.com';
+            Mail::to($email)->send(new DeviceInWork($storedDevice->name, $address));
+        }
         return redirect()->back();
     }
 

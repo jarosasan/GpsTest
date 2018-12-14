@@ -1,0 +1,1 @@
+<input type="email" name="EMAIL" placeholder="Enter Your Email" required /><input type="submit" class="angle_but" value="&#xf101" />

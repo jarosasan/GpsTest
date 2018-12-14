@@ -1,0 +1,11 @@
+<?php
+ale_demo_media::add_image_to_media_gallery('ale_icon1',"http://alethemes.com/olins_base/media/camping/icon1.png");
+ale_demo_media::add_image_to_media_gallery('ale_icon2',"http://alethemes.com/olins_base/media/camping/icon2.png");
+ale_demo_media::add_image_to_media_gallery('ale_icon3',"http://alethemes.com/olins_base/media/camping/icon3.png");
+ale_demo_media::add_image_to_media_gallery('ale_icon4',"http://alethemes.com/olins_base/media/camping/icon4.png");
+ale_demo_media::add_image_to_media_gallery('ale_about_parallax',"http://alethemes.com/olins_base/media/camping/about_parallax.jpg");
+ale_demo_media::add_image_to_media_gallery('ale_about_parallax2',"http://alethemes.com/olins_base/media/camping/about_parallax2.jpg");
+ale_demo_media::add_image_to_media_gallery('ale_member1',"http://alethemes.com/olins_base/media/camping/member1.png");
+ale_demo_media::add_image_to_media_gallery('ale_member2',"http://alethemes.com/olins_base/media/camping/member2.png");
+ale_demo_media::add_image_to_media_gallery('ale_member3',"http://alethemes.com/olins_base/media/camping/member3.png");
+ale_demo_media::add_image_to_media_gallery('ale_member4',"http://alethemes.com/olins_base/media/camping/member4.png");

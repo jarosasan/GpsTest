@@ -1,0 +1,12 @@
+<?php
+ale_demo_media::add_image_to_media_gallery('ale_gal1',"http://alethemes.com/olins_base/media/camping/gal1.jpg");
+ale_demo_media::add_image_to_media_gallery('ale_gal2',"http://alethemes.com/olins_base/media/camping/gal2.jpg");
+ale_demo_media::add_image_to_media_gallery('ale_gal3',"http://alethemes.com/olins_base/media/camping/gal3.jpg");
+ale_demo_media::add_image_to_media_gallery('ale_gal4',"http://alethemes.com/olins_base/media/camping/gal4.jpg");
+ale_demo_media::add_image_to_media_gallery('ale_gal5',"http://alethemes.com/olins_base/media/camping/gal5.jpg");
+ale_demo_media::add_image_to_media_gallery('ale_gal6',"http://alethemes.com/olins_base/media/camping/gal6.jpg");
+ale_demo_media::add_image_to_media_gallery('ale_gal7',"http://alethemes.com/olins_base/media/camping/gal7.jpg");
+ale_demo_media::add_image_to_media_gallery('ale_gal8',"http://alethemes.com/olins_base/media/camping/gal8.jpg");
+ale_demo_media::add_image_to_media_gallery('ale_home1',"http://alethemes.com/olins_base/media/camping/home1.jpg");
+ale_demo_media::add_image_to_media_gallery('ale_home2',"http://alethemes.com/olins_base/media/camping/home2.jpg");
+ale_demo_media::add_image_to_media_gallery('ale_home_parallax',"http://alethemes.com/olins_base/media/camping/home_parallax.jpg");

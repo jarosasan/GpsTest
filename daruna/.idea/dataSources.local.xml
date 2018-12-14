@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="192.168.10.10:3306/sender" uuid="751b5081-fa35-43d2-b03f-534748d38e80">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" />
+      <secret-storage>master_key</secret-storage>
+      <first-sync>true</first-sync>
+      <user-name>homestead</user-name>
+    </data-source>
+    <data-source name="sender@192.168.10.10" uuid="6aaef137-e3de-4601-8585-b04755dff727">
+      <database-info product="MySQL" version="5.5.5-10.2.16-MariaDB-10.2.16+maria~xenial-log" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.46 ( Revision: 9cc87a48e75c2d2e87c1a293b2862ce651cb256e )">
+        <extra-name-characters>#@</extra-name-characters>
+        <identifier-quote-string>`</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="exact" quoted-identifiers="exact" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>homestead</user-name>
+      <introspection-schemas>*:sender</introspection-schemas>
+    </data-source>
+  </component>
+</project>

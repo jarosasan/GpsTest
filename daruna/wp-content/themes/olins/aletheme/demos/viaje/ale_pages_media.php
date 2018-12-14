@@ -1,0 +1,12 @@
+<?php
+ale_demo_media::add_image_to_media_gallery('ale_member1',"http://alethemes.com/olins_base/media/viaje/member1.jpg");
+ale_demo_media::add_image_to_media_gallery('ale_member2',"http://alethemes.com/olins_base/media/viaje/member2.jpg");
+ale_demo_media::add_image_to_media_gallery('ale_member3',"http://alethemes.com/olins_base/media/viaje/member3.jpg");
+ale_demo_media::add_image_to_media_gallery('ale_member4',"http://alethemes.com/olins_base/media/viaje/member4.jpg");
+ale_demo_media::add_image_to_media_gallery('ale_tab1',"http://alethemes.com/olins_base/media/viaje/tab1.jpg");
+ale_demo_media::add_image_to_media_gallery('ale_tab2',"http://alethemes.com/olins_base/media/viaje/tab2.jpg");
+ale_demo_media::add_image_to_media_gallery('ale_tab3',"http://alethemes.com/olins_base/media/viaje/tab3.jpg");
+ale_demo_media::add_image_to_media_gallery('ale_tab4',"http://alethemes.com/olins_base/media/viaje/tab4.jpg");
+ale_demo_media::add_image_to_media_gallery('ale_video',"http://alethemes.com/olins_base/media/viaje/video.jpg");
+ale_demo_media::add_image_to_media_gallery('ale_about_top',"http://alethemes.com/olins_base/media/viaje/about_top.jpg");
+ale_demo_media::add_image_to_media_gallery('ale_mask',"http://alethemes.com/olins_base/media/viaje/mask.png");

@@ -1,0 +1,11 @@
+<?php
+ale_demo_media::add_image_to_media_gallery('ale_img6',"http://alethemes.com/olins_base/media/furniture/img6.jpg");
+ale_demo_media::add_image_to_media_gallery('ale_img7',"http://alethemes.com/olins_base/media/furniture/img7.jpg");
+ale_demo_media::add_image_to_media_gallery('ale_img8',"http://alethemes.com/olins_base/media/furniture/img8.jpg");
+ale_demo_media::add_image_to_media_gallery('ale_img9',"http://alethemes.com/olins_base/media/furniture/img9.jpg");
+ale_demo_media::add_image_to_media_gallery('ale_img10',"http://alethemes.com/olins_base/media/furniture/img10.jpg");
+ale_demo_media::add_image_to_media_gallery('ale_img11',"http://alethemes.com/olins_base/media/furniture/img11.jpg");
+ale_demo_media::add_image_to_media_gallery('ale_work1',"http://alethemes.com/olins_base/media/furniture/work1.jpg");
+ale_demo_media::add_image_to_media_gallery('ale_work2',"http://alethemes.com/olins_base/media/furniture/work2.jpg");
+ale_demo_media::add_image_to_media_gallery('ale_work3',"http://alethemes.com/olins_base/media/furniture/work3.jpg");
+ale_demo_media::add_image_to_media_gallery('ale_work4',"http://alethemes.com/olins_base/media/furniture/work4.jpg");

@@ -1,0 +1,40 @@
+2018-10-05T15:15:05+00:00 CRITICAL Uncaught Error: Maximum function nesting level of '512' reached, aborting! in /home/vagrant/code/daruna/wp-includes/template.php:634
+Stack trace:
+#0 /home/vagrant/code/daruna/wp-includes/template.php(634): file_exists('/home/vagrant/c...')
+#1 /home/vagrant/code/daruna/wp-content/plugins/js_composer/js_composer.php(673): locate_template('vc_templates/vc...')
+#2 /home/vagrant/code/daruna/wp-content/plugins/js_composer/include/helpers/helpers_api.php(216): Vc_Manager->getShortcodesTemplateDir('vc_gitem_animat...')
+#3 /home/vagrant/code/daruna/wp-content/plugins/js_composer/include/classes/shortcodes/shortcodes.php(432): vc_shortcodes_theme_templates_dir('vc_gitem_animat...')
+#4 /home/vagrant/code/daruna/wp-content/plugins/js_composer/include/classes/shortcodes/shortcodes.php(475): WPBakeryShortCode->findShortcodeTemplate()
+#5 /home/vagrant/code/daruna/wp-content/plugins/js_composer/include/classes/shortcodes/shortcodes.php(458): WPBakeryShortCode->loadTemplate(Array, '[vc_gitem_zone_...')
+#6 /home/vagrant/code/d
+
+2018-10-05T15:51:56+00:00 CRITICAL Uncaught Error: Maximum function nesting level of '512' reached, aborting! in /home/vagrant/code/daruna/wp-includes/template.php:634
+Stack trace:
+#0 /home/vagrant/code/daruna/wp-includes/template.php(634): file_exists('/home/vagrant/c...')
+#1 /home/vagrant/code/daruna/wp-content/plugins/js_composer/js_composer.php(673): locate_template('vc_templates/vc...')
+#2 /home/vagrant/code/daruna/wp-content/plugins/js_composer/include/helpers/helpers_api.php(216): Vc_Manager->getShortcodesTemplateDir('vc_gitem_animat...')
+#3 /home/vagrant/code/daruna/wp-content/plugins/js_composer/include/classes/shortcodes/shortcodes.php(432): vc_shortcodes_theme_templates_dir('vc_gitem_animat...')
+#4 /home/vagrant/code/daruna/wp-content/plugins/js_composer/include/classes/shortcodes/shortcodes.php(475): WPBakeryShortCode->findShortcodeTemplate()
+#5 /home/vagrant/code/daruna/wp-content/plugins/js_composer/include/classes/shortcodes/shortcodes.php(458): WPBakeryShortCode->loadTemplate(Array, '[vc_gitem_zone_...')
+#6 /home/vagrant/code/d
+
+2018-10-05T15:54:39+00:00 CRITICAL Uncaught Error: Maximum function nesting level of '512' reached, aborting! in /home/vagrant/code/daruna/wp-includes/template.php:634
+Stack trace:
+#0 /home/vagrant/code/daruna/wp-includes/template.php(634): file_exists('/home/vagrant/c...')
+#1 /home/vagrant/code/daruna/wp-content/plugins/js_composer/js_composer.php(673): locate_template('vc_templates/vc...')
+#2 /home/vagrant/code/daruna/wp-content/plugins/js_composer/include/helpers/helpers_api.php(216): Vc_Manager->getShortcodesTemplateDir('vc_gitem_animat...')
+#3 /home/vagrant/code/daruna/wp-content/plugins/js_composer/include/classes/shortcodes/shortcodes.php(432): vc_shortcodes_theme_templates_dir('vc_gitem_animat...')
+#4 /home/vagrant/code/daruna/wp-content/plugins/js_composer/include/classes/shortcodes/shortcodes.php(475): WPBakeryShortCode->findShortcodeTemplate()
+#5 /home/vagrant/code/daruna/wp-content/plugins/js_composer/include/classes/shortcodes/shortcodes.php(458): WPBakeryShortCode->loadTemplate(Array, '[vc_gitem_zone_...')
+#6 /home/vagrant/code/d
+
+2018-10-05T15:54:50+00:00 CRITICAL Uncaught Error: Maximum function nesting level of '512' reached, aborting! in /home/vagrant/code/daruna/wp-includes/template.php:634
+Stack trace:
+#0 /home/vagrant/code/daruna/wp-includes/template.php(634): file_exists('/home/vagrant/c...')
+#1 /home/vagrant/code/daruna/wp-content/plugins/js_composer/js_composer.php(673): locate_template('vc_templates/vc...')
+#2 /home/vagrant/code/daruna/wp-content/plugins/js_composer/include/helpers/helpers_api.php(216): Vc_Manager->getShortcodesTemplateDir('vc_gitem_animat...')
+#3 /home/vagrant/code/daruna/wp-content/plugins/js_composer/include/classes/shortcodes/shortcodes.php(432): vc_shortcodes_theme_templates_dir('vc_gitem_animat...')
+#4 /home/vagrant/code/daruna/wp-content/plugins/js_composer/include/classes/shortcodes/shortcodes.php(475): WPBakeryShortCode->findShortcodeTemplate()
+#5 /home/vagrant/code/daruna/wp-content/plugins/js_composer/include/classes/shortcodes/shortcodes.php(458): WPBakeryShortCode->loadTemplate(Array, '[vc_gitem_zone_...')
+#6 /home/vagrant/code/d
+

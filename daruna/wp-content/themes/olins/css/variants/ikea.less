@@ -1,0 +1,129 @@
+/*
+* Colors Variables
+*/
+@link_color : #fee489;
+
+body {
+  background-color: #c1a06b;
+}
+
+
+a {
+  color: @link_color;
+  transition:all 300ms ease;
+  &:hover {
+    color:#000;
+    transition:all 300ms ease;
+  }
+}
+
+
+header {
+  .logo {
+    padding: 0;
+    margin: 75px 0;
+    display: inline-block;
+    color:#FFF;
+    font-size: 43px;
+
+    h1 {
+      color: inherit;
+      font-size: inherit;
+      display: inline-block;
+      margin: 0;
+      padding: 0;
+
+      a {
+        color: inherit;
+        font-size: inherit;
+      }
+    }
+  }
+
+  .menu {
+    a {
+      color:inherit;
+    }
+    li {
+      line-height: 46px;
+      font-size: 13px;
+      font-weight: 800;
+      color:#FFF;
+      display: block;
+
+
+      li {
+        a {
+          padding: 5px 20px;
+          display: inline-block;
+
+          &:hover {
+            border: 3px solid transparent;
+            text-decoration: underline;
+          }
+        }
+      }
+
+      &:hover {
+        ul.sub-menu {
+          display: block;
+        }
+      }
+      ul.sub-menu {
+        display: none;
+
+        ul.sub-menu {
+          margin-left: 10px;
+        }
+      }
+    }
+    > li {
+      a {
+        padding: 10px 20px;
+        border: 3px solid transparent;
+        transition: border-color 600ms ease;
+
+        &:hover {
+          border: 3px solid #FFF;
+          transition: border-color 400ms ease;
+        }
+      }
+
+      &.current-menu-item {
+
+        a {
+          border: 3px solid #FFF;
+
+        }
+      }
+    }
+  }
+}
+
+
+
+/*
+* Custom Styles for Visual Composer
+*/
+
+.ale_ikea_home_line1,.ale_ikea_home_line1 p {
+  color:@link_color;
+  font-size: 24px;
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  font-weight: 400;
+}
+.ale_ikea_home_line2,.ale_ikea_home_line2 p {
+  color:#FFF;
+  font-size: 41px;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-family: Raleway, sans-serif;
+}
+.ale_ikea_home_line3,.ale_ikea_home_line3 p {
+  color:#bababa;
+  font-size: 15px;
+  font-weight: 400;
+  font-style: italic;
+  font-family: Raleway, sans-serif;
+}

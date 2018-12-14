@@ -1,0 +1,2 @@
+<?php
+ale_demo_media::add_image_to_media_gallery('ale_img7',"http://alethemes.com/olins_base/media/cv/img7.jpg");

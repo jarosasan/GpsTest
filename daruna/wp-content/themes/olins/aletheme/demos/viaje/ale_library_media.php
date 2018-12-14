@@ -1,0 +1,17 @@
+<?php
+ale_demo_media::add_image_to_media_gallery('ale_d_img1',"http://alethemes.com/olins_base/media/viaje/d_img1.jpg");
+ale_demo_media::add_image_to_media_gallery('ale_d_img2',"http://alethemes.com/olins_base/media/viaje/d_img2.jpg");
+ale_demo_media::add_image_to_media_gallery('ale_d_img3',"http://alethemes.com/olins_base/media/viaje/d_img3.jpg");
+ale_demo_media::add_image_to_media_gallery('ale_d_img4',"http://alethemes.com/olins_base/media/viaje/d_img4.jpg");
+ale_demo_media::add_image_to_media_gallery('ale_d_img5',"http://alethemes.com/olins_base/media/viaje/d_img5.jpg");
+ale_demo_media::add_image_to_media_gallery('ale_d_img6',"http://alethemes.com/olins_base/media/viaje/d_img6.jpg");
+ale_demo_media::add_image_to_media_gallery('ale_d_img7',"http://alethemes.com/olins_base/media/viaje/d_img7.jpg");
+ale_demo_media::add_image_to_media_gallery('ale_d_img8',"http://alethemes.com/olins_base/media/viaje/d_img8.jpg");
+ale_demo_media::add_image_to_media_gallery('ale_d_img9',"http://alethemes.com/olins_base/media/viaje/d_img9.jpg");
+ale_demo_media::add_image_to_media_gallery('ale_d_img10',"http://alethemes.com/olins_base/media/viaje/d_img10.jpg");
+ale_demo_media::add_image_to_media_gallery('ale_d_img11',"http://alethemes.com/olins_base/media/viaje/d_img11.jpg");
+ale_demo_media::add_image_to_media_gallery('ale_d_img12',"http://alethemes.com/olins_base/media/viaje/d_img12.jpg");
+ale_demo_media::add_image_to_media_gallery('ale_dest1',"http://alethemes.com/olins_base/media/viaje/dest1.jpg");
+ale_demo_media::add_image_to_media_gallery('ale_dest2',"http://alethemes.com/olins_base/media/viaje/dest2.jpg");
+ale_demo_media::add_image_to_media_gallery('ale_dest3',"http://alethemes.com/olins_base/media/viaje/dest3.jpg");
+ale_demo_media::add_image_to_media_gallery('ale_dest4',"http://alethemes.com/olins_base/media/viaje/dest4.jpg");

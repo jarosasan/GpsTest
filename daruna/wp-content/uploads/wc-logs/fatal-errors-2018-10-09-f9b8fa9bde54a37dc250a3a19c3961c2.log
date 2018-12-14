@@ -1,0 +1,12 @@
+2018-10-09T07:04:49+00:00 CRITICAL Cannot redeclare ale_map_css() (previously declared in /home/vagrant/code/daruna/wp-content/themes/olins/vc_templates/olins_google_maps.php:143)
+
+2018-10-09T07:05:58+00:00 CRITICAL Cannot redeclare ale_map_css() (previously declared in /home/vagrant/code/daruna/wp-content/themes/olins/vc_templates/olins_google_maps.php:143)
+
+2018-10-09T07:17:51+00:00 CRITICAL Cannot redeclare ale_map_css() (previously declared in /home/vagrant/code/daruna/wp-content/themes/olins/vc_templates/olins_google_maps.php:143)
+
+2018-10-09T14:49:50+00:00 CRITICAL Cannot redeclare ale_map_css() (previously declared in /home/vagrant/code/daruna/wp-content/themes/olins/vc_templates/olins_google_maps.php:143)
+
+2018-10-09T14:52:02+00:00 CRITICAL Cannot redeclare ale_map_css() (previously declared in /home/vagrant/code/daruna/wp-content/themes/olins/vc_templates/olins_google_maps.php:143)
+
+2018-10-09T15:03:32+00:00 CRITICAL Cannot redeclare ale_map_css() (previously declared in /home/vagrant/code/daruna/wp-content/themes/olins/vc_templates/olins_google_maps.php:143)
+

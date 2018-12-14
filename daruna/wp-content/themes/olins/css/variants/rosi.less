@@ -1,0 +1,206 @@
+@pink_color : #cf998f;
+
+.wrapper, .content_wrapper {
+  position: initial;
+}
+.ale_header_rosi  {
+
+  .desktop_header {
+
+    .header_flex_box {
+      display: flex;
+      min-height: 140px;
+      align-items: center;
+      justify-content: space-between;
+      text-transform: uppercase;
+      font-size: 14px;
+      letter-spacing: 0.1em;
+      font-weight: 500;
+      color:#000000;
+
+      .logo_container {
+        flex: 1;
+        order:1;
+      }
+
+      .navigation_container {
+        order:2;
+      }
+
+      .search_container {
+        order:3;
+
+        .search_open_button {
+          color:#000;
+          font-size: 16px;
+          cursor: pointer;
+          transition:all 300ms ease-in-out;
+
+          &:hover {
+            color:@pink_color;
+            transition:all 300ms ease-in-out;
+          }
+        }
+
+        .pop_search_form_container_rosi {
+          position: fixed;
+          z-index: 99999;
+          top:0;
+          left:0;
+          width: 100%;
+          height: 100%;
+          background: rgba(255,255,255,0.95);
+          display: none;
+          align-items: center;
+          justify-content: center;
+
+          .search {
+            max-width: 530px;
+            width: 90%;
+            box-sizing: border-box;
+            border:2px solid @pink_color;
+            height: 66px;
+
+            fieldset {
+              width: 100%;
+
+              .searchinput {
+                width: 69%;
+                margin-left: 0.5%;
+                height: 62px;
+                border:none;
+                float: left;
+                color:#000;
+              }
+
+              #searchsubmit {
+                width: 15%;
+                float:left;
+                height: 62px;
+                border:0;
+                font-size: 12px;
+                color:#000;
+                letter-spacing: 0.1em;
+                font-weight: 700;
+
+                &:hover {
+                  background: none;
+                  color:@pink_color;
+                }
+              }
+              .close_the_form {
+                width: 15%;
+                display: block;
+                float: left;
+                text-align: center;
+                height: 62px;
+                line-height: 62px;
+                font-size: 12px;
+                color:@pink_color;
+                cursor: pointer;
+                letter-spacing: 0.1em;
+                font-weight: 700;
+
+                &:hover {
+                  color:#000;
+
+                }
+              }
+            }
+          }
+        }
+      }
+
+      .currency_container {
+        order:4;
+        margin-left: 20px;
+      }
+      .cart_container {
+        order:5;
+        margin-left: 20px;
+
+        .ale_shop_cart {
+          display: flex;
+          align-items: center;
+        }
+
+        .cart_link {
+          border-radius:100%;
+          background: #000;
+          width: 18px;
+          height: 18px;
+          display: inline-block;
+          text-align: center;
+          line-height: 18px;
+          letter-spacing: 0;
+          font-family: Arial, Helvetica, sans-serif;
+          color:#FFF;
+          font-size: 10px;
+          margin-left: 10px;
+
+          &:hover {
+            background: @pink_color;
+          }
+        }
+      }
+
+      nav.header_nav ul {
+        display: flex;
+        margin-right: 55px;
+
+        li {
+          margin-left: 15px;
+          margin-right: 15px;
+
+
+          a {
+            color: inherit;
+            position: relative;
+            display: inline-block;
+
+            &:before, &:after {
+              content: '';
+              position: absolute;
+              width: 0;
+              height: 1px;
+              top: 100%;
+              //margin-top: -0.5px;
+              background: #000;
+            }
+
+            &:before {
+              left: 0px;
+            }
+            &:after {
+              right: 0px;
+              background: #000;
+              transition: width 0.8s cubic-bezier(0.22, 0.61, 0.36, 1);
+            }
+
+            &:hover:before {
+              background: #000;
+              width: 100%;
+              transition: width 0.5s cubic-bezier(0.22, 0.61, 0.36, 1);
+            }
+
+            &:hover:after {
+              background: transparent;
+              width: 100%;
+              transition: 0s;
+            }
+          }
+
+          &.current-menu-item {
+
+            a:before {
+              background: #000000;
+              width: 100%;
+            }
+          }
+        }
+      }
+    }
+  }
+
+
+}

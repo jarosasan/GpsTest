@@ -1,0 +1,1 @@
+<input type="email" name="EMAIL" placeholder="enter your email... " required /> <input type="submit" class="font_one" value="Go" />
